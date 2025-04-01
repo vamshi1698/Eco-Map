@@ -1,0 +1,35 @@
+.header,.logo,.nav{
+    display: flex;
+    align-self: center;
+}
+.nav > li{
+    display: flex;
+}
+i{
+    align-self: center;
+    color: rgb(0, 128, 64);
+}
+.header{
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 128, 64);
+}
+.logo > *{
+    padding:0 10px;
+}
+.main{
+    padding:2rem;
+}
+.report{
+    background-color: red;
+}
+.nav > li > ul > a{
+    padding: 1rem;
+    border-radius: 50%;
+    color: white !important;
+}
+
+.nav > li > ul > a > i:hover{
+    color: rgb(10, 73, 41);
+}

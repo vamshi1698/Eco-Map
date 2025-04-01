@@ -1,0 +1,31 @@
+form{
+    color: black;
+}
+.login-container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    place-items: center;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid #e2e2;
+    color: black;
+}
+
+.login-container > form > input{
+    border-bottom: 1px solid rosybrown;
+}
+
+.login-container > form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login-container > form > button{
+    background-color: rgb(0, 128, 64);
+    padding:0.8rem 1.5rem;
+    border-radius: 12px;
+}
